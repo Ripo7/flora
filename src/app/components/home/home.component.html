@@ -1,0 +1,188 @@
+
+<div style="position: absolute; top: 0; left: 0; margin: 20px;">
+    <img src="assets/images/logo.png" style="width: 60px;"/>
+</div>
+<div class="link-media">
+    <!-- <a href="https://solsea.io/">
+        <img src="assets/images/discord.png"/>
+    </a> -->
+    <a href="https://twitter.com/home">
+        <img src="assets/images/twitter.png"/>
+    </a>
+    <a href="https://solsea.io/">
+        <img src="assets/images/SolSea_Logo.svg"/>
+    </a>
+</div>
+<div class="container">
+    <div class="header">
+        <div style="border-right: solid 1px purple;">
+            <label>
+                Flora
+            </label>
+        </div>
+        <div style="border-right: solid 1px purple;" (click)="goBlock1()">
+            <label>
+                Mint
+            </label>
+        </div>
+        <div style="border-right: solid 1px purple;" (click)="goBlock2()">
+            <label>
+                Grow
+            </label>
+        </div>
+        <div (click)="goBlock3()">
+            <label>
+                Roadmap
+            </label>
+        </div>
+    </div>
+    <div class="desc">
+        <img class="flower" src="assets/images/flowers1.png"/>
+        <p>
+            Flora is an NFT project that allows you to trade and grow colorful and exotic flowers on the Solana blockchain.<br>
+            <br>For the moment only 20 species are available, but more will be discovered very soon...
+        </p>
+    </div>
+    <div class="mint" #block1>
+        <div class="mint-title">
+            <label>
+                Mint Phase
+            </label>
+        </div>
+        <div class="mint-img">
+            <img src="assets/images/seed.png" style="width: 200px;"/>
+            <img src="assets/images/right-arrow.png"  style="width: 100px;"/>
+            <img src="assets/images/flowers1.png" class="flower"/>
+        </div>
+        <div class="mint-content">
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <img src="../../../assets/images/SolSea_Logo.svg" style="width: 70px; margin-bottom: 20px;"/>
+                <p>
+                    The flowers will be available on SolSea at a price of 1 Solana on December 5, 2021.<br>
+                    There will be a mint phase every week starting on December 5th.   
+                </p>
+            </div>
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <img src="../../../assets/images/flowers.png" style="width: 70px; margin-bottom: 20px;"/>
+                <p>
+                    At each mint phase will be added 1 flower of each species. <br>
+                    At the beginning there will be 20 species and every week more will be discovered.
+                </p>
+            </div>
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <img src="../../../assets/images/gardening.png" style="width: 70px; margin-bottom: 20px;"/>
+                <p>
+                    Minting a flower will give you the role of Master Gardener. <br>
+                    This role will give you access to future airdrops.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="grow" #block2>
+        <div class="grow-title">
+            <label>
+                Grow Phase
+            </label>
+        </div>
+        <div class="grow-img">
+            <img src="assets/images/flowers1.png" class="flower"/>
+            <img src="assets/images/right-arrow.png"  style="width: 100px; align-self: center;"/>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <img src="../../../assets/images/dragon-fruit.png" style="width: 70px; margin: 10px;"/>
+                <img src="../../../assets/images/petal.png" style="width: 70px; margin: 10px;"/>
+                <img src="../../../assets/images/potion.png" style="width: 70px; margin: 10px;"/>
+            </div>
+        </div>
+        <div class="grow-content">
+            <!-- <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <p>
+                    A new website will be created to allow owners to grow their flowers.
+                </p>
+            </div> -->
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <p>
+                    A new website will be created to allow owners to grow their flowers. <br> <br>
+                    Growing flowers will bring in consumables every week. <br> <br>
+                    The consumables can be traded in the Flora Marketplace as well as the flowers,
+                    or they can be mixed with others to create more powerful consumables.
+                </p>
+            </div>
+            <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <p>
+                    Each flower species will give a unique consumable. <br> <br>
+                    It will be possible to grow multiple flowers of the same species 
+                    as well as grow different species at the same time.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="roadmap" #block3>
+        <div class="roadmap-title">
+            <label>
+                Roadmap
+            </label>
+        </div>
+        <div class="roadmap-content">
+            <!-- <div style="width: 30%; display: flex; flex-direction: column; align-items: center; padding: 20px;">
+                <p>
+                    A new website will be created to allow owners to grow their flowers.
+                </p>
+            </div> -->
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50%; border-right: purple solid 2px; padding-right: 20px;">
+                    <label style="color: lightgreen; font-size: x-large;">
+                        Q1:  The Minting
+                    </label>
+                    <p>Mint phase, creation of new flowers, start of the marketing</p>
+                </div>
+                <div style="width: 50%; padding-left: 20px;">
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50%; padding-right: 20px; border-top: purple solid 2px; border-top-right-radius: 20px;">
+                    
+                </div>
+                <div style="width: 50%; border-left: purple solid 2px; padding-left: 20px;">
+                    <label style="color: lightgreen; font-size: x-large;">
+                        Q2: The Ecosystem
+                    </label>
+                    <p>
+                        Buy of a Holder Zone in decentraland to start meeting in the Metaverse.
+                        New website to cultivate flowers. <br>
+                        Creation of the Flora Marketplace to trade flowers and consumables
+                    </p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50%; border-right: purple solid 2px; padding-right: 20px;">
+                    <label style="color: lightgreen; font-size: x-large;">
+                        Q3: The Personal Garden
+
+                    </label>
+                    <p>
+                        Creation of flowers in 3D and creation of The Personal Garden, 
+                        a Chill Zone in the metaverse where you can invite friends. <br>
+                        The garden will contains all the flowers you have and we will add more furniture to unlock.
+                    </p>
+                </div>
+                <div style="width: 50%; padding-left: 20px; border-top: purple solid 2px; border-top-left-radius: 20px;">
+
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div style="width: 50%; padding-right: 20px; border-top: purple solid 2px; border-top-right-radius: 20px;">
+                    
+                </div>
+                <div style="width: 50%; border-left: purple solid 2px; padding-left: 20px;">
+                    <label style="color: lightgreen; font-size: x-large;">
+                        Q4:  Welcome in the Metaverse
+                    </label>
+                    <p>
+                        Finding partnership so the gardens and consumables find their way to the metaverse. <br>
+                        Consumables could be used to change properties or game stat in the metaverse.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
